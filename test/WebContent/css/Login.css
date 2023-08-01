@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+.login {
+	width: 80%
+}
+h1 {
+    margin-bottom: 20px;
+    color: #000; /* 검정색으로 설정 */
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #000; /* 검정색으로 설정 */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: black; /* 흰색 글씨 */
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.signbtn {
+    width: 100%;
+    padding: 10px;
+    color: black; /* 흰색 글씨 */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
